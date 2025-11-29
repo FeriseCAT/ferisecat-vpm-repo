@@ -1,0 +1,9 @@
+<html>
+<head>
+    <title>VRChat Creator Companionへのリダイレクト</title>
+    <meta http-equiv="refresh" content="0; url=vcc://add-repository/?url=https%3A%2F%2Fferisecat.github.io%2Fferisecat-vpm-repo%2Fvpm.json">
+</head>
+<body>
+    <p>VRChat Creator Companionが開かない場合は、<a href="vcc://add-repository/?url=https%3A%2F%2Fferisecat.github.io%2Fferisecat-vpm-repo%2Fvpm.json">ここをクリック</a>してください。</p>
+</body>
+</html>
