@@ -1,0 +1,30 @@
+{
+  "name": "FERISECAT Custom Repository",
+  "id": "com.ferisecat.repo", // リポジトリのユニークなID
+  "author": "FERISECAT",
+  "url": "https://your-server.com/vpm.json", // 🚨 このvpm.json自身の公開URLに置き換えてください
+  "packages": {
+    // ここにパッケージの情報を記述します
+    "com.ferisecat.vrc-aegis-system": { 
+      "versions": {
+        "3.2.0": { // 🚨 バージョン番号
+          "name": "com.ferisecat.vrc-aegis-system",
+          "displayName": "FERISECAT ASSET - VRC イージスシステム",
+          "version": "3.2.0",
+          "description": "FERISECATによって開発されたアバター向け現代海軍武装システムです。",
+          "unity": "2022.3",
+          "unityRelease": "22f1",
+          // ↓↓↓ ステップ1で控えたZIPファイルのダウンロードURLに置き換えてください ↓↓↓
+          "url": "https://github.com/YourName/RepoName/releases/download/v3.2.0/com.ferisecat.vrc-aegis-system-3.2.0.zip", 
+          "dependencies": {
+            "com.vrchat.creatorcompanion": "0.2.1",
+            "com.vrchat.avatars": "3.3.0",
+            "jp.lilyxzy.liltoon": "2.3.0",
+            "dev.modular-avatar": "1.12.0",
+            "com.anatawa12.udonsharp": "1.1.9"
+          }
+        }
+      }
+    }
+  }
+}
